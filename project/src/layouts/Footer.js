@@ -15,21 +15,21 @@ const Footer = () => {
                 return (
                     <>
                         <p>You are on the <span>{props.match.params.page}</span></p>
-                        <p>You are on the <span>{props.match.url}</span></p>
-                        <p>You are on the <span>{props.match.path}</span></p>
+                        {/*<p>You are on the <span>{props.match.url}</span></p>*/}
+                        {/*<p>You are on the <span>{props.match.path}</span></p>*/}
                     </>
                 )
             }}/>
 
-            <Route path="/:page/idProduct" exact render={(props) => {
-                return (
-                    <>
-                        <p>You are on the <span>{props.match.params.idProduct}</span></p>
-                        <p>You are on the <span>{props.match.url}</span></p>
-                        <p>You are on the <span>{props.match.path}</span></p>
-                    </>
-                )
-            }}/>
+            {/*<Route path="/:page/idProduct" exact render={(props) => {*/}
+            {/*    return (*/}
+            {/*        <>*/}
+            {/*            <p>You are on the <span>{props.match.params.idProduct}</span></p>*/}
+            {/*            <p>You are on the <span>{props.match.url}</span></p>*/}
+            {/*            <p>You are on the <span>{props.match.path}</span></p>*/}
+            {/*        </>*/}
+            {/*    )*/}
+            {/*}}/>*/}
         </div>
     );
 }

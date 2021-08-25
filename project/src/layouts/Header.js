@@ -30,7 +30,7 @@ const Header = () => {
                     <img src={img4} alt="city"/>
                 )} />
                 <Route render={() => (
-                    <img src={img4} alt="city"/>
+                    <img src={img3} alt="city"/>
                 )} />
             </Switch>
 
