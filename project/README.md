@@ -1,3 +1,23 @@
+A project of a simple website in React. Technologies: HTML, CSS, React.js and JavaScript.
+
+Some screenshots from the project:
+
+1. Home:
+
+![screenshot](sshots/ss1.png)
+
+2. Products:
+
+![screenshot](sshots/ss2.png)
+
+3. Contact:
+
+![screenshot](sshots/ss3.png)
+
+4. Admin/Login:
+
+![screenshot](sshots/ss4.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
