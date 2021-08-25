@@ -3,9 +3,11 @@ import React from "react";
 const LoginPage = () => {
     return (
         <div>
-            <label htmlFor="">Podaj login: <input type="text"/></label>
-            <label htmlFor="">Podaj hasło: <input type="password"/></label>
-            <button>Zaloguj się!</button>
+            <label htmlFor="">Enter login: <input type="text"/></label>
+            <br/>
+            <label htmlFor="">Enter password: <input type="password"/></label>
+            <br/>
+            <button>Log In!</button>
         </div>
     )
 }

@@ -7,7 +7,7 @@ const Footer = () => {
         <div>
             <h2>Footer</h2>
             <Route path="/" render={(props) => (
-                <p>Jesteś na <span>stronie głównej</span></p>
+                <p>You are on the <span>home page</span></p>
             )
             }/>
 
